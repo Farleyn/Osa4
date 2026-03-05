@@ -24,7 +24,7 @@ namespace Naidis_csharp
                 using (StreamWriter sw = new StreamWriter(path, true))
                 {
                     sw.WriteLine("Midagi");
-                } // Fail suletakse automaatselt siin
+                } 
             }
             catch (Exception e)
             {
